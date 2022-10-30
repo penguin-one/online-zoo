@@ -1,0 +1,580 @@
+@media screen and (max-width: 1000px){
+    /* Header start */
+    .header__container{
+       padding: 0 30px;
+    }
+
+    .link-absolute{
+        right: 30px;
+    }
+
+    .header__item {
+        margin-right: 48px;
+    }
+    /* Header end */
+
+
+    /* Panda on background start */
+    .main__intro{
+        margin-top: 80px;
+        min-height: 390px;
+        background: url(../../assets/images/giant-panda-1000.jpg) no-repeat center;
+    }
+    /* Panda on background end */
+
+
+    /* Pick and feed start */
+    .feed{
+        padding: 40px 0 30px;
+    }
+
+    .feed__intro-wrapper{
+        max-width: 940px;
+    }
+
+    .main__title {
+        max-width: 849px;
+        margin-bottom: 30px;
+    }
+
+    .feed__intro-subtitle {
+        margin-bottom: 40px;
+    }
+
+    .feed__wrapper {
+        max-width: 940px;
+        padding-bottom: 46px;
+    }
+
+    .feed__title {
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .feed__paragraph1 {
+        margin-left: 47px;
+    }
+
+    .feed__form {
+        max-width: 810px;
+    }
+
+    .feed__yellow-circle:first-child,
+    .feed__amount-dollars:first-child{
+        display: none;
+    }
+
+    .feed__line{
+        max-width: 788px;
+    }
+
+    .feed__amount-another {
+        margin: 0 auto 26px;
+    }
+
+    .feed__radio {
+        padding: 0 28px 29px;
+    }
+
+    .feed-friend {
+        margin: 0 auto 30px;
+    }
+
+
+    .feed__intro-desc {
+        margin-bottom: 46px;
+    }
+
+    .feed__num-day {
+        margin-bottom: 0;
+        padding-top: 2px;
+        padding-right: 28px;
+    }
+
+    .feed__multiply {
+        margin-right: 54px;
+    }
+
+    .feed__amount {
+        margin-bottom: 16px;
+    }
+
+    .feed__amount-dollars {
+        margin-top: 7px;
+    }
+    /* Pick and feed end */
+
+    /* Footer start */
+    .footer__wrapper {
+        max-width: 940px;
+        padding-bottom: 50px;
+    }
+
+    .footer__list-item {
+        margin-right: 34px;
+    }
+
+
+    .footer__logo-link {
+        margin: 37px 0 71px;
+    }
+    /* Footer end */
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .header{
+        position: fixed;
+    }
+
+    /* Header start */
+    .header__container {
+       padding: 0 30px 0 20px;
+       height: 34px;
+    }
+
+    .header__logo {
+        display: none;
+    }
+    .footer-logo{
+        display: inline-block;
+    }
+
+    .header__logo-no-border {
+        display: inline-block;
+    }
+
+    .link-absolute{
+        position: relative;
+        right: 0;
+    }
+
+    .header__list{
+        display: none;
+    }
+    .open-burger-menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 12px;
+    }
+    .shown{
+        display: block;
+        z-index: 2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        padding: 10px 10px 30px;
+    }
+    .burger-header__link{
+        color: #000;
+    }
+    .close-burger-menu{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .logo-burger{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .ul-burger-header__list{
+        line-height: 200%;
+    }
+    /* Header end */
+
+
+    /* Panda on background start */
+    .main__intro {
+        min-height: 335px;
+        margin-top: 34px;
+    }
+    /* Panda on background end */
+
+
+    /* Pick and feed start */
+    .feed{
+        padding: 30px 0 45px;
+    }
+
+    .feed__intro-wrapper{
+        max-width: 600px;
+    }
+
+    .main__title {
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .feed__intro-desc {
+        margin-bottom: 30px;
+    }
+
+    .feed__intro-subtitle {
+        margin-bottom: 30px;
+    }
+
+    .feed__wrapper {
+        max-width: 600px;
+        padding-bottom: 31px;
+    }
+
+    .feed__title {
+        padding-top: 29px;
+        margin-bottom: 20px;
+    }
+
+    .feed__paragraph1 {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .feed__form {
+        max-width: 810px;
+    }
+
+    .feed__yellow-circle:nth-child(2),
+    .feed__yellow-circle:nth-child(3),
+    .feed__amount-dollars:nth-child(2),
+    .feed__amount-dollars:nth-child(3){
+        display: none;
+    }
+
+    /* .feed__yellow-circle:nth-child(6)::before{
+        content: '';
+        position: absolute;
+        background-image: url(../../assets/images/roller_ico.svg);
+        top: -19px;
+        left: 242px;
+        width: 40px;
+        height: 40px;
+    } */
+
+    .feed__line{
+        max-width: 524px;
+        position: relative;
+    }
+
+    .feed__amount-another {
+        margin: 0 auto 26px;
+    }
+
+    .feed__radio {
+        padding: 0 28px 29px;
+    }
+
+    .feed-friend {
+        margin: 0 auto 30px;
+    }
+
+    .feed__amount-money{
+        margin: 0 17px 50px;
+    }
+
+    .feed__amount {
+        margin-left: 10px;
+        margin-bottom: 6px;
+    }
+
+
+    .feed__wrapper-amount {
+        margin: 0 auto 41px;
+    }
+
+    .feed__amount-another {
+        font-size: 10px;
+        max-width: 178px;
+        margin: 0 auto 31px;
+        padding: 10px 9px;
+    }
+    /* Pick and feed end */
+
+
+    /* Footer start */
+    .footer__wrapper {
+        max-width: 600px;
+        padding-bottom: 12px;
+    }
+
+    .footer__list-item {
+        margin-right: 37px;
+    }
+
+    .social-media{
+        position: absolute;
+        top: 12px;
+        right: -10px;
+    }
+
+    .social-media__list-item>a:last-child{
+        display: none;
+    }
+
+    .footer__left{
+        position: relative;
+        width: 100%;
+    }
+
+    .social-media__list-item {
+        margin-bottom: 20px;
+    }
+
+    .footer__form{
+        display: none;
+    }
+
+    .credits {
+        padding-left: 0;
+    }
+
+
+    .footer__logo-link {
+        margin: 10px 0 35px;
+    }
+
+    .donate {
+        margin-bottom: 67px;
+    }
+    /* Footer end */
+}
+
+
+
+@media screen and (max-width: 320px) {
+    /* Header start */
+    .header__container {
+        padding: 0 10px;
+    }
+
+    /* Menu start */
+    .nav__showmenu {
+        padding: 7px 10px 9px 0;
+    }
+    /* Menu end */
+    /* Header end */
+
+
+    /* Panda on background start */
+    .main__intro {
+        margin-top: 34px;
+        min-height: 187px;
+        background-size: cover;
+    }
+    /* Panda on background end */
+
+
+    /* Pick and feed start */
+    .feed{
+        padding: 30px 0 20px;
+    }
+
+    .feed__intro-wrapper{
+        max-width: 301px;
+    }
+
+    .feed__intro-subtitle {
+        font-size: 24px;
+    }
+
+    .feed__wrapper {
+        max-width: 301px;
+        margin-bottom: 1px;
+        padding-bottom: 20px;
+    }
+
+    .feed__title {
+        padding-top: 20px;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .feed__paragraph1 {
+        line-height: 132%;
+        margin-left: 0;
+        margin-bottom: 11px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .feed__form {
+        max-width: 301px;
+    }
+
+    .feed__num-day>img{
+        width: 46px;
+        height: 32px;
+    }
+
+    .feed__multiply{
+        margin-right: 21px;
+    }
+
+    .feed__multiply>img{
+        width: 8px;
+        height: 8px;
+    }
+
+    .feed__num-desc>p{
+        font-size: 11px;
+    }
+
+    .feed__type-animal>img{
+        width: 160px;
+    }
+
+    .feed__yellow-circle:nth-child(2),
+    .feed__yellow-circle:nth-child(3),
+    .feed__amount-dollars:nth-child(2),
+    .feed__amount-dollars:nth-child(3){
+        display: none;
+    }
+
+    /* .feed__yellow-circle:nth-child(6)::before{
+        content: '';
+        position: absolute;
+        background-image: url(../../assets/images/roller_ico.svg);
+        top: -19px;
+        left: 111px;
+        width: 40px;
+        height: 40px;
+    } */
+
+    .feed__line-money {
+        height: 14px;
+        padding: 7px 0;
+        margin-bottom: 6px;
+    }
+
+    .feed__line{
+        max-width: 262px;
+        position: relative;
+    }
+
+    .feed__yellow-circle{
+        width: 5px;
+        height: 5px;
+    }
+
+    .feed__amount-another {
+        max-width: 180px;
+        font-size: 12px;
+        margin: 0 auto 25px;
+        padding: 10px 9px;
+    }
+
+    .feed__radio {
+        padding: 0 28px 28px;
+    }
+
+    .feed-friend {
+        margin: 0 auto 30px;
+    }
+
+    .feed__amount-money{
+        margin: 0 17px 19px;
+    }
+
+    .feed__amount-money>div{
+        font-size: 12px;
+    }
+
+    .feed__amount {
+        margin-left: 0;
+    }
+
+
+    .feed__intro-desc {
+        margin-bottom: 24px;
+    }
+
+    .feed__num {
+        padding-top: 35px;
+        margin-left: 15px;
+    }
+
+    .feed__num-desc>p{
+        padding-top: 3px;
+        font-size: 9px;
+    }
+
+    .feed__wrapper-amount {
+        margin: 0 auto 6px;
+    }
+    /* Pick and feed end */
+
+
+       /* Footer start */
+    .footer-logo{
+        display: none;
+    }
+
+    .footer__logo-link{
+        background: url(../../assets/images/logo-horizontal.png) no-repeat center;
+        width: 128px;
+        height: 25px;
+        margin: 18px auto 23px;
+        order: 1;
+    }
+
+    .donate{
+        order: 3;
+        margin-bottom: 30px;
+    }
+
+    .footer__wrapper {
+        max-width: 298px;
+        padding-bottom: 20px;
+    }
+
+    .footer__list-item {
+        margin-right: 30px;
+    }
+
+    .social-media{
+        position: static;
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .footer__left{
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+
+    .footer__nav{
+        order: 3;
+        margin: 0 auto;
+    }
+
+    .footer__right{
+        order: 2;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer__credits{
+        align-self: flex-end;
+    }
+
+    .social-media__list-item {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .facebook, .twitter, .instagram{
+        margin-right: 26px;
+    }
+    /* Footer end */
+}
+
+.active-page {
+    color: #FE9013;
+    pointer-events: none;
+}
